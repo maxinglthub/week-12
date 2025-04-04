@@ -38,5 +38,5 @@ while i < len(x_list):
     sigma_y = sigma_y + y_list[i]
     sigma_xx = sigma_xx + x_list[i] * x_list[i]
     i = i + 1
-    
-print(sigma_x)
+
+print(sigma_x, sigma_y, sigma_xx)
