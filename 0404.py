@@ -29,9 +29,14 @@ while i < len(x_list):
     i = i + 1
 
 sigma_x = 0
+sigma_y = 0
+sigma_xx = 0
 i = 0
 
 while i < len(x_list):
     sigma_x = sigma_x + x_list[i]
+    sigma_y = sigma_y + y_list[i]
+    sigma_xx = sigma_xx + x_list[i] * x_list[i]
     i = i + 1
+    
 print(sigma_x)
